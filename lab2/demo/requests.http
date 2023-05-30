@@ -1,0 +1,86 @@
+GET http://localhost:8080/api/players
+
+###
+GET http://localhost:8080/api/players/Benzema
+
+###
+
+GET http://localhost:8080/api/players/Reus
+
+###
+
+GET http://localhost:8080/api/footballteams
+
+###
+
+GET http://localhost:8080/api/footballteams/Real_Madryt
+
+###
+
+GET http://localhost:8080/api/footballteams/Real_Madryt/players
+
+###
+
+GET http://localhost:8080/api/footballteams/Lech_Poznan/players/Skoras
+
+###
+
+POST http://localhost:8080/api/players
+Content-Type: application/json
+
+{
+  "surname": "Modric",
+  "rate": "87",
+  "footballteam": "Real_Madryt"
+}
+
+###
+
+POST http://localhost:8080/api/footballteams
+Content-Type: application/json
+
+{
+  "name": "Bayern_Monachium",
+  "attack": "86",
+  "defence": "86"
+}
+
+###
+
+DELETE http://localhost:8080/api/footballteams/Borussia_Dortmund
+
+###
+
+DELETE http://localhost:8080/api/players/Modric
+
+###
+
+PUT http://localhost:8080/api/footballteams/Lech_Poznan
+Content-Type: application/json
+
+{
+  "attack": "70",
+  "defence": "70"
+}
+
+###
+
+PUT http://localhost:8080/api/players/Bednarek
+Content-Type: application/json
+
+{
+  "rate": "89"
+}
+
+###
+
+POST http://localhost:8080/api/players
+Content-Type: application/json
+
+{
+  "surname": "Carvajal",
+  "rate": "83",
+  "footballteam": "Real_Madryt"
+}
+
+###
