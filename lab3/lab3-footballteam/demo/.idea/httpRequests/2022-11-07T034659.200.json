@@ -1,0 +1,14 @@
+{
+  "footballTeams": [
+    {
+      "name": "Real_Madryt",
+      "attack": 90,
+      "defence": 85
+    },
+    {
+      "name": "Lech_Poznan",
+      "attack": 74,
+      "defence": 73
+    }
+  ]
+}

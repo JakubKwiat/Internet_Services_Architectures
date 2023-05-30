@@ -1,0 +1,40 @@
+{
+  "players": [
+    {
+      "surname": "Benzema",
+      "rate": 91
+    },
+    {
+      "surname": "Courtois",
+      "rate": 92
+    },
+    {
+      "surname": "Vinicius",
+      "rate": 88
+    },
+    {
+      "surname": "Bellingham",
+      "rate": 86
+    },
+    {
+      "surname": "Reus",
+      "rate": 85
+    },
+    {
+      "surname": "Moukoko",
+      "rate": 83
+    },
+    {
+      "surname": "Skoras",
+      "rate": 73
+    },
+    {
+      "surname": "Bednarek",
+      "rate": 71
+    },
+    {
+      "surname": "Ishak",
+      "rate": 74
+    }
+  ]
+}

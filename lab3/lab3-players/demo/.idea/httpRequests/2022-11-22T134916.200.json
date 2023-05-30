@@ -1,0 +1,24 @@
+{
+  "footballTeams": [
+    {
+      "name": "Real_Madryt",
+      "attack": 90,
+      "defence": 85
+    },
+    {
+      "name": "Borussia_Dortmund",
+      "attack": 86,
+      "defence": 80
+    },
+    {
+      "name": "Lech_Poznan",
+      "attack": 74,
+      "defence": 73
+    },
+    {
+      "name": "Bayern_Monachium",
+      "attack": 86,
+      "defence": 86
+    }
+  ]
+}
